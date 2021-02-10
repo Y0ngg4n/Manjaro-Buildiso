@@ -1,4 +1,4 @@
-FROM manjarolinux/base
+FROM manjarolinux/build
 
 # Thanks to https://gitlab.com/m3m3nto/manjaro-buildiso/-/blob/master/Dockerfile for the template
 
