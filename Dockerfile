@@ -2,6 +2,9 @@ FROM manjarolinux/base
 
 # Thanks to https://gitlab.com/m3m3nto/manjaro-buildiso/-/blob/master/Dockerfile for the template
 
+# update Databases
+RUN pacman --quit --noprogressbar -Sy
+
 # install development tools
 RUN pacman --quiet --noprogressbar -S --noconfirm lsb-release
 RUN pacman --quiet --noprogressbar -S --noconfirm base-devel
